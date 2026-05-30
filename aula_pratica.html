@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha pagina - Fontes, Mapas e Vídeo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Minha Página Completa</h1>
+        <p>Fontes, Mapas e Vídeo em HTML</p>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre o local</h2>
+            <p> Este texto usa a fonte <strong>Roboto</strong>, que foi importada do Google Fonts. Fontes externas deixam o site com uma aparência mais profissional e personalizada. </p>
+            <p> Você pode combinar várias fontes: uma para títulos e outra para o corpo do texto. </p>
+        </section>
+        <section>
+            <h2>Localização</h2>
+            <p>Encontre-nos no mapa abaixo:</p>
+            <div class="mapa-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086123456789!2d-122.41941548468123!3d37.77492977975956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c12345678%3A0xabcdef1234567890!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sbr!4v1610000000000" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"> </iframe>
+            </div>
+        </section>
+        <section>
+            <h2>Vídeo</h2>
+            <div class="video-container">
+                <video controls loop poster="imagens/capa.jpg">
+                    <source src="video/dunk.mp4" type="video/mp4">
+                    <source src="video/meu-video.webm" type="video/webm">
+                    seu navegador não suporta o elemento de vídeo.
+                </video>
+            </div>
+            <p class="video-info"> Formatos suportados: MP4 (recomendado), WebM, OGG </p>
+        </section>
+    </main>
+    <footer>
+        <p>Aula de FrontEnd &mdash; Fontes, Mapas e vídeo</p>
+    </footer>
+</body>
+</html>
